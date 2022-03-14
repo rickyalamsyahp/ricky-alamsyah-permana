@@ -14,7 +14,16 @@ const Home = () => {
         </div>
       </div>
       <div className="home">
-        {/* <input></> */}
+        <div>
+          <input
+            className="input"
+            type="text"
+            //   value={id}
+            //   onChange={(e) => setId(e.target.value)}
+            placeholder="Search Username"
+          />
+        </div>
+
         <div className="cardHome">
           <div className="left">
             <p className="title">Ricky</p>
