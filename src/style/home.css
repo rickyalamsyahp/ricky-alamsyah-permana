@@ -1,0 +1,26 @@
+.navbar {
+  min-height: 80px;
+}
+
+.navbar .nav {
+  display: flex;
+  width: 100vw;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #106cc8;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+
+.navbar .nav .left {
+  margin-left: 10vw;
+}
+
+.navbar .nav .left .title {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
