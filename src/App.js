@@ -6,10 +6,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route
-          path="/"
-          element={<Home logic="Login" title="Halaman Utama" />}
-        />
+        <Route path="/" element={<Home title="Halaman Utama" />} />
       </Routes>
     </Router>
   );
