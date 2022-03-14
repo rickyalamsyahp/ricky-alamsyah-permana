@@ -24,3 +24,40 @@
   font-size: 24px;
   font-weight: 600;
 }
+
+/* list style */
+.home {
+  padding: 0 10%;
+}
+
+.cardHome {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardHome:nth-child(even) {
+  background-color: #eee;
+}
+
+.cardHome:hover {
+  background-color: lightgray;
+}
+
+.cardHome .left {
+  flex: 0.8;
+  color: black;
+  text-decoration: none;
+}
+
+.cardHome .left .title {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cardHome .left .body {
+  font-size: 14px;
+  font-size: 400;
+}

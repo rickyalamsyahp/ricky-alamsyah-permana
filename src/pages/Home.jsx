@@ -14,6 +14,7 @@ const Home = () => {
         </div>
       </div>
       <div className="home">
+        {/* <input></> */}
         <div className="cardHome">
           <div className="left">
             <p className="title">Ricky</p>
